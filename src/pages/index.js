@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Banner from "../../Components/Home/Banner";
+import Services from "../../Components/Home/Services";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       </Head>
       <div className="banner-bg">
         <Banner />
+      </div>
+      <div>
+        <Services/>
       </div>
     </>
   );

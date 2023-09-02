@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="custom-border">
       <div className="container py-3">
         <Navbar />
-        <div className="text-center py-5 text-white">
+        <div className="text-center py-4 text-white">
           <div className="title py-4">
             We offer Medical <br /> Health Services for all Ages
           </div>

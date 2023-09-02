@@ -22,13 +22,18 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
+.primary-color {
+  color: #5681f9;
+}
+.paragraph-color {
+  color: #1f3c8d;
+}
 /*-------------------Banner Slider-----------------------*/
 .title {
   font-size: 60px;
   font-weight: 800;
 }
 .banner-bg {
- 
   font-family: "Nunito", sans-serif;
 }
 .primary-btn {
@@ -44,6 +49,19 @@ body {
   color: var(--bgColor);
   background-color: #ebe8f5;
 }
+.primary-sm-btn {
+  padding: 8px 28px;
+  font-size: 16px;
+  color: var(--bgColor);
+  font-weight: 500;
+  border-radius: 8px;
+  border-color: none !important;
+  background-color: #c1d2fe;
+}
+.primary-sm-btn:hover {
+  color: white;
+  background-color: var(--bgColor);
+}
 .secondary-btn {
   color: var(--bgColor);
   padding: 12px 40px;
@@ -57,9 +75,25 @@ body {
   color: #ebe8f5;
   background-color: var(--BTN-Hover-Color);
 }
-.custom-border{
-  border: 2px ;
+.custom-border {
+  border: 2px;
   border-bottom-left-radius: 80px;
   border-bottom-right-radius: 80px;
   background-color: var(--bgColor);
+}
+
+/*----------------------------------------
+              Service Section 
+ -----------------------------------------*/
+.service-section {
+  margin-top: -280px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.service {
+  background-color: #edf4fe;
+  border-radius: 25px;
+  /* margin-bottom: 25px !important; */
 }
