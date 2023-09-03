@@ -1,5 +1,7 @@
+/*----------------- Import Extern Link ------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
+/*------------------- Global Style ----------------------- */
 :root {
   --bgColor: #5681f9;
   --BTN-Hover-Color: #7395f7;
@@ -25,15 +27,23 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .primary-color {
   color: #5681f9;
 }
 .paragraph-color {
   color: #4d4d89;
 }
+.primary-bg {
+  background-color: #5681f9;
+}
 .secondary-bg-color {
   background-color: #e6eefb;
 }
+
 /*-------------------Banner Slider-----------------------*/
 .title {
   font-size: 60px;
@@ -88,23 +98,20 @@ body {
   background-color: var(--bgColor);
 }
 
-/*----------------------------------------
-              Service Section 
- -----------------------------------------*/
+/*----------------- Service Section --------------------*/
 .service-section {
   margin-top: -360px;
   background-color: #ffffff;
   border-radius: 50px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .service {
   background-color: #edf4fe;
   border-radius: 25px;
-  /* margin-bottom: 25px !important; */
 }
 
-/* Department  */
-
+/*------------------ Department ---------------- */
 .departments-heading {
   font-size: 72px;
   font-weight: 800;
@@ -120,6 +127,31 @@ body {
 .department {
   border-radius: 20px !important;
 }
-.department-heading{
+.department-heading {
   font-weight: 600;
+}
+
+/*---------------------- Graph ------------------ */
+.graph-card {
+  background-color: #eaf0fc !important;
+  border-radius: 15px;
+}
+.graph-icon {
+  border-radius: 15px !important;
+}
+
+/*-------------------Newsletter------------------ */
+.newsletter {
+  background-color: #5681f9;
+  border-radius: 25px;
+}
+.newsletter-img {
+  margin-top: -190px;
+}
+.newsletter-title {
+  font-weight: 800;
+  color: white;
+}
+.newsletter-btn{
+  background-color: #7395f7;
 }

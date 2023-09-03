@@ -3,7 +3,7 @@ import Navbar from "../Global/Navbar";
 
 const Banner = () => {
   return (
-    <div className="custom-border">
+    <div className="custom-border banner-bg">
       <div className="container py-3">
         <Navbar />
         <div className="text-center py-4 text-white">
