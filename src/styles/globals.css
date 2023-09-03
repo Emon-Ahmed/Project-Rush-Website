@@ -18,6 +18,9 @@ body {
 .font-sans {
   font-family: "Open Sans", sans-serif;
 }
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
@@ -26,7 +29,10 @@ body {
   color: #5681f9;
 }
 .paragraph-color {
-  color: #1f3c8d;
+  color: #4d4d89;
+}
+.secondary-bg-color {
+  background-color: #e6eefb;
 }
 /*-------------------Banner Slider-----------------------*/
 .title {
@@ -86,14 +92,34 @@ body {
               Service Section 
  -----------------------------------------*/
 .service-section {
-  margin-top: -280px;
+  margin-top: -360px;
   background-color: #ffffff;
   border-radius: 50px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .service {
   background-color: #edf4fe;
   border-radius: 25px;
   /* margin-bottom: 25px !important; */
+}
+
+/* Department  */
+
+.departments-heading {
+  font-size: 72px;
+  font-weight: 800;
+  color: #4d4d89;
+}
+.departments-des {
+  color: #4d4d89;
+}
+
+.custon-top {
+  margin-top: -120px;
+}
+.department {
+  border-radius: 20px !important;
+}
+.department-heading{
+  font-weight: 600;
 }

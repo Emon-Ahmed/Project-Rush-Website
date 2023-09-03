@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Banner from "../../Components/Home/Banner";
 import Services from "../../Components/Home/Services";
+import Departments from "../../Components/Home/Departments";
+import Graph from "../../Components/Home/Graph";
 
 export default function Home() {
   return (
@@ -15,7 +17,13 @@ export default function Home() {
         <Banner />
       </div>
       <div>
-        <Services/>
+        <Services />
+      </div>
+      <div>
+        <Departments />
+      </div>
+      <div>
+        <Graph />
       </div>
     </>
   );
