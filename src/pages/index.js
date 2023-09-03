@@ -5,6 +5,7 @@ import Departments from "../../Components/Home/Departments";
 import Graph from "../../Components/Home/Graph";
 import About from "../../Components/Home/About";
 import Newsletter from "../../Components/Home/Newsletter";
+import Footer from "../../Components/Global/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
       <Departments />
       <Graph />
       <About />
-      <Newsletter/>
+      <div className="newsletter-bg">
+        <Newsletter />
+      </div>
+      <Footer />
     </>
   );
 }

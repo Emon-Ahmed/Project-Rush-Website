@@ -152,6 +152,14 @@ input:focus {
   font-weight: 800;
   color: white;
 }
-.newsletter-btn{
+.newsletter-btn {
   background-color: #7395f7;
+}
+.newsletter-bg {
+  background: linear-gradient(to bottom, #ffffff 50%, #eaf0fc 50%);
+}
+
+/*----------------- Footer--------------------  */
+.footer-bg {
+  background-color: #eaf0fc;
 }

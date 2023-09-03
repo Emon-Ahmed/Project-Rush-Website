@@ -14,7 +14,9 @@ const GraphCard = () => {
         <div className="col-md-8">
           <div className="p-2">
             <h5 className="paragraph-color">Advance Care</h5>
-            <p className="primary-color text-decoration-underline">LEARN MORE</p>
+            <p className="primary-color text-decoration-underline">
+              LEARN MORE
+            </p>
           </div>
         </div>
       </div>

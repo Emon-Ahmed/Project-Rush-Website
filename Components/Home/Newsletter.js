@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="container my-5 py-5">
+    <div className="container mt-5 pt-5 pb-4">
       <div className="row font-nunito newsletter p-5">
         <div className="col-md-9">
           <div>
@@ -16,16 +16,16 @@ const Newsletter = () => {
               commodi
             </p>
             <div className="pb-4">
-              <div class="input-group w-50">
+              <div className="input-group w-50">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Enter Your Email Address"
                   aria-label="Enter Your Email Address"
                   aria-describedby="button-addon2"
                 />
                 <button
-                  class="btn text-white newsletter-btn py-2 px-3"
+                  className="btn text-white newsletter-btn py-2 px-3"
                   type="button"
                   id="button-addon2"
                 >
