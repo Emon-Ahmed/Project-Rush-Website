@@ -40,7 +40,7 @@ const Navbar = () => {
               className="nav-item text-white text-decoration-none ms-3"
             >
               <span className="nav-link" aria-current="page" href="#">
-                Services
+                Services Offered
               </span>
             </Link>
             <Link
@@ -48,7 +48,15 @@ const Navbar = () => {
               className="nav-item text-white text-decoration-none ms-3"
             >
               <span className="nav-link" aria-current="page" href="#">
-                Contacts
+                FAQ’s
+              </span>
+            </Link>
+            <Link
+              href={"/"}
+              className="nav-item text-white text-decoration-none ms-3"
+            >
+              <span className="nav-link" aria-current="page" href="#">
+                Contact Us
               </span>
             </Link>
           </ul>
