@@ -53,7 +53,7 @@ input:focus {
   font-family: "Nunito", sans-serif;
 }
 .primary-btn {
-  color: #ebe8f5;
+  color: #ffffff;
   padding: 12px 40px;
   font-size: 18px;
   font-weight: 500;
@@ -162,4 +162,99 @@ input:focus {
 /*----------------- Footer--------------------  */
 .footer-bg {
   background-color: #eaf0fc;
+}
+
+/*---------------- Navbar ------------------- */
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.menu-icon {
+  color: white !important;
+}
+.navbar-toggler .show .navbar-nav {
+  background-color: white !important;
+  color: red !important;
+}
+
+/*------------------- TAB RESPONSIVE  --------------*/
+@media (max-width: 991.98px) {
+  .title {
+    font-size: 48px;
+    font-weight: 800;
+  }
+  .service-img {
+    width: 50%;
+  }
+  .service-md-center {
+    text-align: center;
+  }
+  .navbar-brand img {
+    width: 84px;
+  }
+  .departments-heading {
+    font-size: 54px;
+    font-weight: 800;
+  }
+  .departments-des {
+    font-size: 24px;
+  }
+  .graph-md-head {
+    text-align: center;
+  }
+  .graph-md-p {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .graph-md-card {
+    text-align: center;
+  }
+  .graph-md-cards {
+    width: 48% !important;
+    float: left !important;
+  }
+  .about-md-text {
+    text-align: center;
+  }
+  .text-res-center {
+    text-align: center;
+  }
+  .about-width {
+    width: 100% !important;
+  }
+  .about-icon {
+    width: 100% !important;
+  }
+  .hide-img {
+    display: none !important;
+  }
+  .w-md-input {
+    width: 100% !important;
+  }
+  .newsletter-section {
+    width: 90% !important;
+  }
+}
+
+/*------------------- MOBILE RESPONSIVE  --------------*/
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .service-img {
+    width: 35%;
+  }
+  .departments-heading {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .departments-des {
+    font-size: 20px;
+  }
+  .graph-icon {
+    width: 90% !important;
+    text-align: center;
+  }
 }

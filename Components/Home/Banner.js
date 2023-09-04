@@ -11,10 +11,10 @@ const Banner = () => {
             We offer Medical <br /> Health Services for all Ages
           </div>
           <div className="pt-5 pb-5">
-            <button className="secondary-btn ms-3 btn" type="submit">
+            <button className="btn secondary-btn my-md-0 my-2 ms-3" type="submit">
               Our Services
             </button>
-            <button className="btn primary-btn ms-3" type="submit">
+            <button className="btn primary-btn  my-md-0 my-2 ms-3" type="submit">
               More Info
             </button>
           </div>

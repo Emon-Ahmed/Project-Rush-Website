@@ -2,7 +2,7 @@ import React from "react";
 
 const Department = () => {
   return (
-    <div className="mb-5 px-3 ">
+    <div className="mb-5 px-3 mt-4 mt-md-0">
       <div className="secondary-bg-color department text-center rounded  shadow-sm pt-5 pb-4 px-4">
         <img
           src="/department-icon.png"

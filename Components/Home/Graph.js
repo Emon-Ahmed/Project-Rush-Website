@@ -12,35 +12,37 @@ const Graph = () => {
         </div>
         <div className="col-md-7">
           <div className="px-2">
-            <h1 className="mt-4 font-nunito paragraph-color fw-bold">
+            <h1 className="mt-4 font-nunito graph-md-head paragraph-color fw-bold">
               Why You Should Choose <br /> Our Health Services
             </h1>
-            <p className="paragraph-color">
+            <p className="paragraph-color graph-md-p">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ab{" "}
               <br /> eaque perferendis optio quaerat nostr quaerat nostrum.
             </p>
           </div>
           <div className="mx-2">
-            <div className="row">
-              <div className="col-md-6">
+            <div className="row ">
+              <div className="col-6 col-md-6">
                 <GraphCard />
               </div>
-              <div className="col-md-6">
+              <div className="col-6 col-md-6">
                 <GraphCard />
               </div>
             </div>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-6 col-md-6">
                 <GraphCard />
               </div>
-              <div className="col-md-6">
+              <div className="col-6 col-md-6">
                 <GraphCard />
               </div>
             </div>
           </div>
-          <button className="btn primary-btn mx-2 my-4" type="submit">
-            Make Appointment
-          </button>
+          <div className="text-res-center">
+            <button className="btn primary-btn mx-2 my-4" type="submit">
+              Make Appointment
+            </button>
+          </div>
         </div>
       </div>
     </div>
